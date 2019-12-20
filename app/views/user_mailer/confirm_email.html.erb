@@ -1,0 +1,9 @@
+Hi <%= @user.email %>,
+
+You can confirm your account email through the link below:
+
+<%= link_to 'Confirm My Account' , confirm_users_url(token: @user.confirmation_token), method: :post %>
+
+
+
+

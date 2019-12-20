@@ -1,0 +1,8 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database:  my-api
+  pool: 5
+  username: postgres
+  password: postgres
+  host: localhost

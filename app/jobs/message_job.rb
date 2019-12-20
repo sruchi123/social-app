@@ -1,0 +1,2 @@
+class Messagejob < ApplicationJob 
+end  
